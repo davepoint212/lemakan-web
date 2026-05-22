@@ -1,6 +1,6 @@
-echo '{
+{
   "rewrites": [
     { "source": "/", "destination": "/lemakan-web/index.html" },
     { "source": "/(.*)", "destination": "/lemakan-web/$1" }
   ]
-}' > vercel.json
+}
