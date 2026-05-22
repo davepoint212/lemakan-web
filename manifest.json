@@ -1,0 +1,21 @@
+{
+  "name": "LE Mahakan Komunitas",
+  "short_name": "LE Mahakan",
+  "description": "Platform komunitas UMKM untuk berbagi resep, album, dan produk",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#4CAF50",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192?text=LM",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512?text=LM",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

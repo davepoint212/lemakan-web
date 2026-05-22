@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="manifest" href="manifest.json">
+    <title>Resep - LE Mahakan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="sub-header">
+            <a href="index.html" class="back-btn">←</a>
+            <h1>📖 Resep Digital</h1>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Cari resep..." onkeyup="filterRecipes()">
+        </div>
+
+        <div id="recipesList" class="recipes-grid"></div>
+
+        <div class="loading" id="loading">Loading...</div>
+        <div class="error" id="error" style="display:none;">Gagal memuat data</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
